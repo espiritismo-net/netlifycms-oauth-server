@@ -19,7 +19,7 @@ Vist https://github.com/settings/developers (or `https://github.com/organization
 - `Application name` -  free
 - `Homepage URL` -  free
 - `Application description` - free
-- `Authorization callback URL` - `https://asia-northeast1-<YOUR_FIREBASE_PROJECT_ID>.cloudfunctions.net/oauth/callback`
+- `Authorization callback URL` - `https://us-central1-<YOUR_FIREBASE_PROJECT_ID>.cloudfunctions.net/oauth/callback`
 
 If you don't have Firebase projects yet here, you can change the callback url after created it.
 
@@ -33,7 +33,7 @@ backend:
   name: github
   repo: <YOUR_GITHUB_ID_OR_ORG>/netlifycms-oauth-server
   branch: main  # Or branch you want to update
-  base_url: https://asia-northeast1-<YOUR_FIREBASE_PROJECT_ID>.cloudfunctions.net
+  base_url: https://us-central1-<YOUR_FIREBASE_PROJECT_ID>.cloudfunctions.net
   auth_endpoint: /oauth/auth
 ```
 
